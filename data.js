@@ -20,32 +20,40 @@ If you think the value of the variable can change, use let.
 
 
 // Declare variables (without value assignment)
-
-
-
+let score;
+let lives;
 
 // Initialize variable (declare AND Assign value simultaneously)
-
-
-
-
+var num = 7;
+const ageToVote = 18;       // ageToVote lower camel case
+let x = 5;
+let y = 7;
 
 // Use Variables
 // **Note: An equal sign is used to assign values to variables.
+// "=" mean "get the values of"
+score = num + 3;
+lives = score + 1;
 
 
 
+/* ARRAYS: */ 
+const newEngland = ["New Hampshire", "Vermont", "Maine", "Massachusetts", "Rhode Island", "Connecticut"];
+// index values            0             1         2            3               4               5
 
+const grades = [91, 100, 88, 95, 75, 98, 100];
+// index values  0   1    2   3   4   5   6
 
-
-/* ARRAYS: */
-
-
-
-
-
+let state = newEngland[2];
+let student2 = grades[1];
 
 // The Array object has many methods and properties
+newEngland.length;              // Sets or returns the number of elements in an array
+newEngland.push("New York");    // Adds new elements to the end of an array, and returns the new length
+newEngland.pop();               // Removes the last element of an array, and returns that element
+newEngland.indexOf("Rhode Island", 0); // Removes the last element of an array, and returns that element
+
+
 
 
 
